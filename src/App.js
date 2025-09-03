@@ -17,7 +17,7 @@ import ViewInspectedApplication from './certifier/viewinspectedapplication';
 import CertifyApplication from './certifier/certifyapplication';
 import ViewApplications from './farmer/viewplaces';
 function App() {
-  console.log("create application" , CreateApplication);
+  console.log("API URL:", process.env.REACT_APP_API_URL);
   return(
     <Router>
 
